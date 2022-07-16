@@ -61,5 +61,5 @@ def delete(sno):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)  # we don't have to reload the app if we add this debug=True
+    app.run(debug=True, port=8000)  # we don't have to reload the app if we add this debug=True
     # can also specify the port
